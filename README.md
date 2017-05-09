@@ -12,8 +12,10 @@ This integration does a simple `GET` lookup into Redis and assumes that the valu
 
 This integration also assumes that the `value` stored in Redis is stored as a JSON string (i.e., a string that can be parsed back into a JSON object).  This behavior can be modified in the `_parseRedisResult` method. 
 
-![image](https://cloud.githubusercontent.com/assets/306319/25863892/70619f4c-34bb-11e7-8a99-b521c1a0c796.png)
-*(Example key-value pair in Redis)*
+
+| ![image](https://cloud.githubusercontent.com/assets/306319/25863892/70619f4c-34bb-11e7-8a99-b521c1a0c796.png) |
+|----|
+|*(Example key-value pair in Redis)*|
 
 Further information on how to use the Node Redis client can be found at [https://github.com/NodeRedis/node_redis](https://github.com/NodeRedis/node_redis).
 
