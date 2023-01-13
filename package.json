@@ -1,8 +1,8 @@
 {
-  "main": "./integration.js",
   "name": "RedisServerExample",
+  "version": "1.0.1-beta",
+  "main": "./integration.js",
   "description": "Polarity integration example for querying a Redis Instance",
-  "version": "1.0.0-beta",
   "private": true,
   "dependencies": {
     "lodash": "4.17.4",
