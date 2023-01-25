@@ -1,16 +1,13 @@
 {
   "name": "Redis Example",
   "acronym": "RED",
+  "defaultColor": "light-blue",
   "logging": {
     "level": "info"
   },
-  "entityTypes": [
-    "IPv4"
-  ],
+  "entityTypes": ["IPv4"],
   "description": "This is a sample integration that connects to a Redis instance",
-  "styles": [
-    "./styles/redis-server.less"
-  ],
+  "styles": ["./styles/redis-server.less"],
   "block": {
     "component": {
       "file": "./components/redis-server.js"
