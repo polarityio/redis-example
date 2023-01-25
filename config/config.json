@@ -1,0 +1,56 @@
+{
+  "name": "Redis Example",
+  "acronym": "RED",
+  "defaultColor": "light-blue",
+  "logging": {
+    "level": "info"
+  },
+  "entityTypes": ["IPv4"],
+  "request": {
+    "cert": "",
+    "key": "",
+    "passphrase": "",
+    "ca": "",
+    "proxy": "",
+    "rejectUnauthorized": true
+  },
+  "description": "This is a sample integration that connects to a Redis instance",
+  "styles": ["./styles/redis-server.less"],
+  "block": {
+    "component": {
+      "file": "./components/redis-server.js"
+    },
+    "template": {
+      "file": "./templates/redis-server.hbs"
+    }
+  },
+  "options": [
+    {
+      "key": "host",
+      "name": "Database Host",
+      "description": "The hostname of the server hosting your Redis instance",
+      "default": "",
+      "type": "text",
+      "userCanEdit": false,
+      "adminOnly": true
+    },
+    {
+      "key": "port",
+      "name": "Database Port",
+      "description": "The port your redis instance is listening on",
+      "default": "6379",
+      "type": "number",
+      "userCanEdit": false,
+      "adminOnly": true
+    },
+    {
+      "key": "database",
+      "name": "Database Id",
+      "description": "The redis database you are connecting to",
+      "default": "0",
+      "type": "number",
+      "userCanEdit": false,
+      "adminOnly": true
+    }
+  ]
+}
