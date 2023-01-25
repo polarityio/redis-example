@@ -19,6 +19,14 @@ module.exports = {
   defaultColor: 'light-blue',
   logging: { level: 'info' },
   entityTypes: ['IPv4'],
+  request: {
+    cert: '',
+    key: '',
+    passphrase: '',
+    ca: '',
+    proxy: '',
+    rejectUnauthorized: true
+  },
   /**
    * Description for this integration which is displayed in the Polarity integrations user interface
    *
@@ -86,4 +94,4 @@ module.exports = {
       adminOnly: true
     }
   ]
-}
+};

@@ -6,6 +6,14 @@
     "level": "info"
   },
   "entityTypes": ["IPv4"],
+  "request": {
+    "cert": "",
+    "key": "",
+    "passphrase": "",
+    "ca": "",
+    "proxy": "",
+    "rejectUnauthorized": true
+  },
   "description": "This is a sample integration that connects to a Redis instance",
   "styles": ["./styles/redis-server.less"],
   "block": {
